@@ -1,4 +1,7 @@
-# test coverage for  [gulp-cssshrink (v0.1.6)](https://github.com/torrottum/cssshrink-gulp)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-cssshrink.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-cssshrink) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-cssshrink.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-cssshrink)
+# npmtest-gulp-cssshrink
+
+#### basic test coverage for  [gulp-cssshrink (v0.1.6)](https://github.com/torrottum/cssshrink-gulp)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-cssshrink.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-cssshrink) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-cssshrink.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-cssshrink)
+
 #### Run CSS through cssshrink
 
 [![NPM](https://nodei.co/npm/gulp-cssshrink.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-cssshrink)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-cssshrink/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-cssshrink/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-cssshrink/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-cssshrink/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-cssshrink/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-cssshrink/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-cssshrink/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-cssshrink/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-cssshrink/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-cssshrink/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-cssshrink/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-cssshrink/build/coverage.html/index.html)
 
@@ -79,7 +82,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.1.6"
+    "version": "0.1.6",
+    "bin": {}
 }
 ```
 
